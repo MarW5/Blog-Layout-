@@ -1,15 +1,17 @@
 import React from "react"
+import { MenuNav, StyledList} from "./Menu.styles"
 
-const MenuNav = ()=>(
+export const Menu = ()=> (
 
-    <div>
-            <ul>
-                <li>Kryptowaluty</li>
-                <li>Waluty</li>
-                <li>Surowce</li>
-                <li>WIG 20</li>
-            </ul>
-        </div>
+    <MenuNav>
+        <div>Logo</div>
+            <StyledList>
+                <li>Product</li>
+                <li>Company</li>
+                <li>Connect</li>
+            </StyledList>
+    </MenuNav>
+     
     
 
 )
@@ -17,5 +19,4 @@ const MenuNav = ()=>(
 
 
 
-export default MenuNav;
  

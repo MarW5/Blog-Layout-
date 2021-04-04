@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
   }
   
   a, button {

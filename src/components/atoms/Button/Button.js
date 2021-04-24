@@ -1,10 +1,9 @@
 import React from 'react';
 import { StyledButton } from './Button.styles';
 
-const Button = () => (
-  <StyledButton>
-    <div></div>
+export const Button = (props) => (
+  <StyledButton {...props}>
+    {props.content}
   </StyledButton>
 );
 
-export default Button;

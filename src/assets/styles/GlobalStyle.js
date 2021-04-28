@@ -12,6 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: 'Overpass', sans-serif;
     font-size: 16px;
+    
   }
   
   a, button {

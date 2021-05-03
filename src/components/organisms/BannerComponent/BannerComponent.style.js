@@ -8,18 +8,10 @@ export const Wrapper = styled.div`
   height: 100%;
   box-sizing: border-box;
   background-size: cover;
-  background-position: right;
+  background-position: left;
   border-radius: 0 0 0 50px;
-
-  /* &:before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-size: 100%;
-    background: no-repeat;
-    
-    width: 100vw;
-    height: 100vh; */
-  /* } */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;

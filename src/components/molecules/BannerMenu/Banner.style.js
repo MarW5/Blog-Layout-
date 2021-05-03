@@ -9,3 +9,12 @@ export const BannerStyle = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+
+export const ButtonBox = styled.div`
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

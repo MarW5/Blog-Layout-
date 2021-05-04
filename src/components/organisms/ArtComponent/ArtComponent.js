@@ -10,7 +10,7 @@ export const ArtComponent = () => (
     <TextContainer>
       <Headers style={{ color: 'white' }} content={'State of the Art Infrastructure'} />
       <TextContent
-        style={{ color: 'white' }}
+        style={{ color: 'white', maxWidth: '600px' }}
         content={
           'With reliability and speed in mind, worldwide data conters provide the backbone for ultra-fast connectivity. This ensures your site will load instantly, no matter where your renders are, keeping your side competitive.'
         }

@@ -1,11 +1,5 @@
+import { SubMenu } from 'components/atoms/SubMenu/SubMenu';
 import styled from 'styled-components';
-
-export const MenuNav = styled.div`
-  width: 100%;
-  padding: 40px 50px;
-  display: flex;
-  justify-content: space-around;
-`;
 
 export const StyledList = styled.ul`
   width: 35%;
@@ -24,6 +18,10 @@ export const StyledListElements = styled.li`
   &:hover {
     text-decoration: underline;
     font-weight: 900;
+  }
+
+  &:hover ${SubMenu} {
+    display: flex;
   }
 `;
 

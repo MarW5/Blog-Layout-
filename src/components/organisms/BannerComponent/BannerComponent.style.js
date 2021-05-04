@@ -15,3 +15,10 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
 `;
+
+export const MenuNav = styled.div`
+  width: 100%;
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-around;
+`;

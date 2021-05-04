@@ -21,7 +21,9 @@ export const TextContainer = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 7em;
+  line-height: 1.5;
+  letter-spacing: 0.06em;
 `;
 
 export const PictureContainer = styled.div`
@@ -34,7 +36,7 @@ export const PicturePhones = styled.div`
   background-image: url(${phonesSvg});
   background-repeat: no-repeat;
   position: absolute;
-  height: 100%;
+  height: 125%;
   top: -60px;
   left: 154px;
 `;
